@@ -25,6 +25,14 @@ def IncrementalOTA_Assertions(info):
   AddTrustZoneAssertion(info, info.target_zip)
   return
 
+def FullOTA_InstallBegin(info):
+  CreateVendorPartition(info)
+  return
+
+def IncrementalOTA_InstallBegin(info):
+  CreateVendorPartition(info)
+  return
+
 def AddTrustZoneAssertion(info, input_zip):
   android_info = info.input_zip.read("OTA/android-info.txt")
   m = re.search(r'require\s+version-trustzone\s*=\s*(\S+)', android_info)
