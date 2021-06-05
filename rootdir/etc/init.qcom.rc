@@ -369,6 +369,11 @@ service conn_init /vendor/bin/hwaddrs
     group system wifi bluetooth
     oneshot
 
+service loggy /vendor/bin/loggy.sh
+   class core
+   user root
+   oneshot
+
 on post-fs
     chmod 0660 /dev/lge_dm_tty0
     chown system system /dev/lge_dm_tty0
