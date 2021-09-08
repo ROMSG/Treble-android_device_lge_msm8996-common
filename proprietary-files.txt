@@ -2,46 +2,6 @@
 lib64/libaptX_encoder.so
 lib64/libaptXHD_encoder.so
 
-# Camera postprocessing
-vendor/lib/libchromaflash.so
-vendor/lib/liboptizoom.so
-vendor/lib/libseemore.so
-vendor/lib/libtrueportrait.so
-vendor/lib/libubifocus.so
-vendor/lib64/libseemore.so
-
-# Camera postprocessing - mmcamera
-vendor/lib/libmmcamera_chromaflash_lib.so
-vendor/lib/libmmcamera_llvd.so
-vendor/lib/libmmcamera_optizoom_lib.so
-vendor/lib/libmmcamera_quadracfa.so
-vendor/lib/libmmcamera_stillmore_lib.so
-vendor/lib/libmmcamera_trueportrait_lib.so
-vendor/lib/libmmcamera_ubifocus_lib.so
-
-# Camera firmware
-etc/camera/film/0_film.dat:vendor/etc/camera/film/0_film.dat
-etc/camera/film/1_film.dat:vendor/etc/camera/film/1_film.dat
-etc/camera/film/2_film.dat:vendor/etc/camera/film/2_film.dat
-etc/camera/film/3_film.dat:vendor/etc/camera/film/3_film.dat
-etc/camera/film/4_film.dat:vendor/etc/camera/film/4_film.dat
-etc/camera/film/5_film.dat:vendor/etc/camera/film/5_film.dat
-etc/camera/film/6_film.dat:vendor/etc/camera/film/6_film.dat
-etc/camera/film/7_film.dat:vendor/etc/camera/film/7_film.dat
-etc/camera/film/8_film.dat:vendor/etc/camera/film/8_film.dat
-etc/camera/film/9_film.dat:vendor/etc/camera/film/9_film.dat
-etc/camera/film/10_film.dat:vendor/etc/camera/film/10_film.dat
-etc/firmware/cpp_firmware_v1_1_1.fw:vendor/firmware/cpp_firmware_v1_1_1.fw
-etc/firmware/cpp_firmware_v1_1_6.fw:vendor/firmware/cpp_firmware_v1_1_6.fw
-etc/firmware/cpp_firmware_v1_2_0.fw:vendor/firmware/cpp_firmware_v1_2_0.fw
-etc/firmware/cpp_firmware_v1_4_0.fw:vendor/firmware/cpp_firmware_v1_4_0.fw
-etc/firmware/cpp_firmware_v1_5_0.fw:vendor/firmware/cpp_firmware_v1_5_0.fw
-etc/firmware/cpp_firmware_v1_5_2.fw:vendor/firmware/cpp_firmware_v1_5_2.fw
-etc/firmware/cpp_firmware_v1_6_0.fw:vendor/firmware/cpp_firmware_v1_6_0.fw
-etc/firmware/cpp_firmware_v1_8_0.fw:vendor/firmware/cpp_firmware_v1_8_0.fw
-etc/firmware/cpp_firmware_v1_10_0.fw:vendor/firmware/cpp_firmware_v1_10_0.fw
-etc/firmware/cpp_firmware_v1_12_0.fw:vendor/firmware/cpp_firmware_v1_12_0.fw
-
 # IR
 -lib/libcir_driver.so:vendor/lib/libcir_driver.so
 -lib64/libcir_driver.so:vendor/lib64/libcir_driver.so
