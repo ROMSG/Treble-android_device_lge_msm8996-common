@@ -42,15 +42,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.bt.bdaddr_path=/data/misc/bluetooth/bdaddr
 
-# Camera
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.camera.notify_nfc=1 \
-    vidc.debug.perf.mode=2 \
-    vidc.enc.dcvs.extra-buff-count=2 \
-    persist.audio.camcorder.stereo=true \
-    persist.camera.preview.ubwc=0 \
-    persist.camera.video.ubwc=0
-
 # CNE and DPM
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.cne.feature=1 \
